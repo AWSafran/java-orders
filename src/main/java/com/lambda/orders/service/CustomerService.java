@@ -9,8 +9,6 @@ public interface CustomerService
 {
     List<Customer> findAll();
     
-    List<Order> findOrdersByCustomerName();
-    
     Customer save(Customer customer);
     
     Customer findCustomerByCode(long custcode);
